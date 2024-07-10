@@ -1,6 +1,76 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+h1, h2, h3{
+    color: #2e2f42;
+}
 a {
     text-decoration: none;
 }
 ul {
     list-style-type: none;
+}
+
+/* Header */
+.menu{
+    width: 1440px;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+}
+.menu-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+}
+.menu-addres {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0px;
+}
+
+/* Order Service */
+.order-service {
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 600px;
+}
+.order-service-title {
+    color: #fff;
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07143;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
+.order-service-button {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+}
+
+/* Our Team */
+.our-team {
+    background-color: #F4F4FD;
 }

@@ -7,21 +7,27 @@
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
   <body>
-    <header>
+    <header class="menu">
       <nav>
-        <a href="./index.html"> WebStudio </a>
-        <ul>
+        <a href="./index.html" class="logo"> WebStudio </a>
+        <ul class="menu-list">
           <li><a href="">Studio</a></li>
           <li><a href="">Portfolio</a></li>
           <li><a href="">Contacts</a></li>
         </ul>
       </nav>
       <address>
-        <ul>
+        <ul menu="menu-address">
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
@@ -29,9 +35,13 @@
     </header>
     <main>
       <!-- Order Service -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="order-service">
+        <h1 class="order-service-title">
+          Effective Solutions for Your Business
+        </h1>
+        <button type="button" class="order-service-button">
+          Order Service
+        </button>
       </section>
 
       <!-- Advantages -->
@@ -70,8 +80,8 @@
       </section>
 
       <!-- Our team -->
-      <section>
-        <h2>Our Team</h2>
+      <section class="our-team">
+        <h2 class="our-team-title">Our Team</h2>
         <ul>
           <li>
             <img
@@ -109,8 +119,8 @@
       </section>
 
       <!-- Our Portfolio -->
-      <section>
-        <h2>Our Portfolio</h2>
+      <section class="our-portfolio">
+        <h2 class="our-portfolio-title">Our Portfolio</h2>
         <ul>
           <li>
             <img
@@ -169,7 +179,7 @@
         </ul>
       </section>
     </main>
-    <footer>
+    <footer class="lower-part">
       <a href="./index.html"> WebStudio </a>
       <p>
         Increase the flow of customers and sales for your business with digital
