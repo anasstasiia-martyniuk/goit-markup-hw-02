@@ -18,9 +18,20 @@ ul {
 /* Header */
 .menu{
 }
-.menu-list {
+.menu-list-item {
+    font-weight: 500;
+    line-height:1,5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.menu-list-item:hover
+.menu-list-item:focus {
+    color:#404bbf;
 }
 .menu-address {
+    font-style:normal;
+}
+.menu-contacts {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -32,11 +43,11 @@ ul {
     color:#404BBF;
 }
 .logo {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0.03em
+    letter-spacing: 0.03em;
     text-transform:uppercase;
     color: #4d5ae5;
 }
@@ -58,7 +69,6 @@ ul {
     line-height: 1.07
 }
 .order-service-button {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4d5ae5;
     font-family:inherit;
     font-weight: 500;
