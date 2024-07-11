@@ -39,7 +39,7 @@ ul {
     color:#434455;
 }
 .menu-contacts:hover,
-.menu-contacts:active {
+.menu-contacts:focus {
     color:#404BBF;
 }
 .logo {
